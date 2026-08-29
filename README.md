@@ -1,17 +1,14 @@
 # KLG Architects
 
-Static HTML/CSS/JS recreation of the [KLG Architects](https://www.klg.co.za) site.
+A quiet, multi-page studio site in plain HTML, CSS, and JavaScript. Open `index.html` with VS Code Live Server.
 
-- Home, with the Table Mountain / Cape Town Stadium hero
-- Work index and individual project pages
-- Practice (about and awards)
-- Contact
-- Category pages: Residential, Education, Cultural, Hospitality, Precinct Planning
+## Pages
 
-Open `index.html` or serve the folder:
+- `index.html` — home, aerial Cape Town hero, selected work
+- `work.html` — archive with client-side filters
+- `project.html?id=` — long-form project
+- `practice.html` — history, notes, and contact
 
-```bash
-python3 -m http.server 8080
-```
+## Local assets
 
-The home hero is [Table Mountain from Cape Town Stadium 03](https://commons.wikimedia.org/wiki/File:Table_Mountain_from_Cape_Town_Stadium_03.jpg) on Wikimedia Commons. Project photographs, logo, and copy are from klg.co.za.
+Fonts: Cormorant Garamond and Outfit in `fonts/`. Photographs from [klg.co.za](https://www.klg.co.za) and the [Malan Vorster pavilion](https://www.malanvorster.co.za/projects/private-entertainment-pavillion/). The home hero is Unsplash `photo-1580060839134-75a5edca2e99` (Table Mountain and Cape Town Stadium).
