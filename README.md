@@ -1,17 +1,7 @@
 # KLG Architects
 
-Static HTML/CSS/JS recreation of the live [KLG Architects](https://www.klg.co.za) site — their logo, Poppins, project photographs, and published copy.
+Paper-monograph prototype of the studio site. Open `index.html` with VS Code Live Server.
 
-- Home: slideshow of KLG project photographs (House Montrose, House Lowe, Kleinmond, Dune House, Kogelberg, Kerala Farm)
-- Work index and individual project pages from klg.co.za
-- Practice: about, directors, awards list from [klg.co.za/contact](https://www.klg.co.za/contact)
-- Contact: phone, email, 1 Hans Ras Road, studio map
-- Category pages: Residential, Education, Cultural, Hospitality, Precinct Planning
+The look (warm paper, Cormorant Garamond, Outfit) is original to this prototype. **Copy, awards, contact details, and project photographs** are from [klg.co.za](https://www.klg.co.za). The home aerial is Unsplash `photo-1580060839134-75a5edca2e99` (Table Mountain and Cape Town Stadium) — the only non-KLG photograph.
 
-This prototype does not include work from other practices.
-
-Open `index.html` with VS Code Live Server, or:
-
-```bash
-python3 -m http.server 8080
-```
+There is no work from other practices in this repo.
