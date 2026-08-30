@@ -1,14 +1,17 @@
 # KLG Architects
 
-A quiet, multi-page studio site in plain HTML, CSS, and JavaScript. Open `index.html` with VS Code Live Server.
+Static HTML/CSS/JS recreation of the live [KLG Architects](https://www.klg.co.za) site — their logo, Poppins, project photographs, and published copy.
 
-## Pages
+- Home: slideshow of KLG project photographs (House Montrose, House Lowe, Kleinmond, Dune House, Kogelberg, Kerala Farm)
+- Work index and individual project pages from klg.co.za
+- Practice: about, directors, awards list from [klg.co.za/contact](https://www.klg.co.za/contact)
+- Contact: phone, email, 1 Hans Ras Road, studio map
+- Category pages: Residential, Education, Cultural, Hospitality, Precinct Planning
 
-- `index.html` — home, aerial Cape Town hero, selected work
-- `work.html` — archive with client-side filters
-- `project.html?id=` — long-form project
-- `practice.html` — history, notes, and contact
+This prototype does not include work from other practices.
 
-## Local assets
+Open `index.html` with VS Code Live Server, or:
 
-Fonts: Cormorant Garamond and Outfit in `fonts/`. Photographs from [klg.co.za](https://www.klg.co.za) and the [Malan Vorster pavilion](https://www.malanvorster.co.za/projects/private-entertainment-pavillion/). The home hero is Unsplash `photo-1580060839134-75a5edca2e99` (Table Mountain and Cape Town Stadium).
+```bash
+python3 -m http.server 8080
+```
