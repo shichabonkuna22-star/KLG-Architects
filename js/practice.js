@@ -43,7 +43,7 @@ if (custom && trigger && menu && nativeSelect) {
 if (form) {
   form.addEventListener("submit", (event) => {
     event.preventDefault();
-    const fields = ["name", "email", "type", "note"];
+    const fields = ["name", "surname", "email", "type", "note"];
     let valid = true;
 
     fields.forEach((name) => {
