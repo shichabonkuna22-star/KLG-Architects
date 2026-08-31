@@ -66,14 +66,25 @@
           <span class="field-error" data-error-for="email"></span>
         </label>
         <label>
-          Project type
-          <select name="type">
+          <span id="project-type-label">Project type</span>
+          <select name="type" id="project-type" class="sr-only" tabindex="-1" aria-hidden="true">
             <option value="">Select</option>
             <option>House</option>
             <option>Hospitality</option>
             <option>Cultural</option>
             <option>Education or precinct</option>
           </select>
+          <div class="custom-select" data-custom-select>
+            <button type="button" class="custom-select-trigger" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="project-type-label">
+              Select
+            </button>
+            <ul class="custom-select-menu" role="listbox" hidden>
+              <li role="option" data-value="House">House</li>
+              <li role="option" data-value="Hospitality">Hospitality</li>
+              <li role="option" data-value="Cultural">Cultural</li>
+              <li role="option" data-value="Education or precinct">Education or precinct</li>
+            </ul>
+          </div>
           <span class="field-error" data-error-for="type"></span>
         </label>
         <label>
