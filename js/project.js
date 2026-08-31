@@ -18,14 +18,30 @@ if (!project || !root) {
     `;
   }
 } else {
-  document.title = `${project.title} — KLG Architects`;
+  document.title = `${project.title} — iQhayiya Design Workshop`;
   const facts = [
     ["Location", project.location],
-    ["Completed", project.year],
+    ["Completed", project.completed || project.year],
     ["Client", project.client],
-    ["Photography", project.photography],
-    ["Recognition", project.recognition],
+    ["Contract value", project.contractValue],
   ].filter(([, value]) => value);
+
+  const gallery = project.gallery.filter(Boolean);
+  const galleryHtml = gallery.length
+    ? `<section class="gallery">
+      <img class="gallery-lead" src="${gallery[0]}" alt="${escapeHtml(project.title)}">
+      ${
+        gallery.length > 1
+          ? `<div class="gallery-pair">
+        ${gallery
+          .slice(1, 3)
+          .map((src) => `<img src="${src}" alt="${escapeHtml(project.title)}">`)
+          .join("")}
+      </div>`
+          : ""
+      }
+    </section>`
+    : "";
 
   root.innerHTML = `
     <section class="hero project-hero">
@@ -52,13 +68,7 @@ if (!project || !root) {
       </dl>
     </section>
 
-    <section class="gallery">
-      <img class="gallery-lead" src="${project.gallery[0]}" alt="${escapeHtml(project.title)}">
-      <div class="gallery-pair">
-        <img src="${project.gallery[1]}" alt="${escapeHtml(project.title)}">
-        <img src="${project.gallery[2]}" alt="${escapeHtml(project.title)}">
-      </div>
-    </section>
+    ${galleryHtml}
 
     <section class="further">
       <p class="eyebrow">Further work</p>

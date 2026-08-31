@@ -1,9 +1,9 @@
 const HEADER = `
   <header class="site-header">
     <div class="bar">
-      <a class="wordmark" href="index.html" aria-label="KLG Architects home">
-        <span class="wordmark-klg">KLG</span>
-        <span class="wordmark-sub">Architects</span>
+      <a class="wordmark" href="index.html" aria-label="iQhayiya Design Workshop home">
+        <span class="wordmark-klg">iQhayiya</span>
+        <span class="wordmark-sub">Design Workshop</span>
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
         <span></span><span></span>
@@ -23,16 +23,16 @@ const FOOTER = `
   <footer class="site-footer">
     <div class="footer-grid">
       <div>
-        <p class="footer-blurb">KLG Architects is a Cape Town based practice with project involvement ranging in scale from residential to hospitality, educational, institutional and master planning.</p>
+        <p class="footer-blurb">iQhayiya Design Workshop is a professional architectural firm in Margate, focused on public-sector work. IQHAYIYA translates to pride in isiXhosa.</p>
       </div>
       <div>
         <p class="eyebrow">Studio</p>
-        <p>1 Hans Ras Road<br>Rondebosch<br>Cape Town, South Africa</p>
+        <p>88 Marine Drive<br>Margate<br>KwaZulu-Natal</p>
       </div>
       <div>
         <p class="eyebrow">Practice</p>
-        <p><a href="tel:+27216852720">+27 21 685 2720</a><br>
-        <a href="mailto:practice@klg.co.za">practice@klg.co.za</a></p>
+        <p><a href="tel:+27393120403">+27 (0) 39 312 0403</a><br>
+        <a href="mailto:adminkok@iqhayiyadw.co.za">adminkok@iqhayiyadw.co.za</a></p>
       </div>
       <div>
         <p class="eyebrow">Index</p>
@@ -44,7 +44,7 @@ const FOOTER = `
         </p>
       </div>
     </div>
-    <p class="footer-note">KLG Architects · 1 Hans Ras Road, Rondebosch</p>
+    <p class="footer-note">iQhayiya Design Workshop · 88 Marine Drive, Margate</p>
   </footer>
 `;
 
