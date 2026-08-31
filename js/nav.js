@@ -2,7 +2,7 @@ const HEADER = `
   <header class="site-header">
     <div class="bar">
       <a class="wordmark" href="index.html" aria-label="iQhayiya Design Workshop home">
-        <span class="wordmark-klg">iQhayiya</span>
+        <span class="wordmark-name">iQhayiya</span>
         <span class="wordmark-sub">Design Workshop</span>
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
