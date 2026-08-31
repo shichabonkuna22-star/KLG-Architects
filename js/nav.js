@@ -23,7 +23,7 @@ const FOOTER = `
   <footer class="site-footer">
     <div class="footer-grid">
       <div>
-        <p class="footer-blurb">A Cape Town studio whose work ranges from houses to hospitality, education, and precincts — always beginning with the site.</p>
+        <p class="footer-blurb">KLG Architects is a Cape Town based practice with project involvement ranging in scale from residential to hospitality, educational, institutional and master planning.</p>
       </div>
       <div>
         <p class="eyebrow">Studio</p>
@@ -44,7 +44,7 @@ const FOOTER = `
         </p>
       </div>
     </div>
-    <p class="footer-note">KLG Architects · Rondebosch · Prototype monograph, 2026</p>
+    <p class="footer-note">KLG Architects · 1 Hans Ras Road, Rondebosch</p>
   </footer>
 `;
 
